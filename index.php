@@ -1,6 +1,6 @@
 <?php
 if((isset($_POST) && count($_POST)==0) || !isset($_POST)){
-	header("Location:login");
+	header("Location:login1");
 }
 ?>
 <?php include('config/config.inc.php');?> 
